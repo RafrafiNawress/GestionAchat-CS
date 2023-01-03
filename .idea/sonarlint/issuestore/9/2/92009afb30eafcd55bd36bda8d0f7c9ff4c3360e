@@ -1,0 +1,12 @@
+
+O
+java:S3518}"9Make sure "nbf" can't be zero before doing this division.(‹ƒ“
+R
+java:S3655,"7Call "Optional#isPresent()" before accessing the value.(‘²»øÿÿÿÿ
+R
+java:S36555"7Call "Optional#isPresent()" before accessing the value.(Õççşÿÿÿÿ
+B
+java:S1905""'Remove this unnecessary cast to "List".(ùŞÉŒşÿÿÿÿ
+E
+java:S1905'"*Remove this unnecessary cast to "Facture".(ª¬ÿÿÿÿÿ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÙŠ•Ù

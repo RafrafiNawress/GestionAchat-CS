@@ -1,0 +1,11 @@
+
+H
+java:S1948+"-Make "secteurActivites" private or transient.(Ç˜“ùÿÿÿÿ
+@
+java:S1948."%Make "factures" private or transient.(¥û­•úÿÿÿÿ
+^
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(ş‘‹„
+U
+java:S1128	"@Remove this unused import 'org.hibernate.annotations.ManyToAny'.(äÄè,
+K
+java:S1128"5Remove this unused import 'lombok.EqualsAndHashCode'.(Ìà‰ò

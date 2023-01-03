@@ -1,0 +1,8 @@
+
+H
+java:S11687"+Return an empty collection instead of null.(¥¹ï8óšÇ§Õ0
+X	java:S1258"<This block of commented-out lines of code should be removed.(ôšËÍ8ôšÇ§Õ0
+q
+java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.PutMapping'.(›¥÷ˆûÿÿÿÿ8­ÊÆ§Õ0
+\
+java:S1128"@Remove this unused import 'tn.esprit.spring.entities.Operateur'.(œ¸ñ@8­ÊÆ§Õ0

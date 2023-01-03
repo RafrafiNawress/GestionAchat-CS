@@ -1,0 +1,11 @@
+
+|
+java:S1488?"ZImmediately return this expression instead of assigning it to the temporary variable "f1".(ßÔÆÖıÿÿÿÿ8ù„¥Õ0
+Y
+java:S3655="7Call "Optional#isPresent()" before accessing the value.(Æ¢úÁøÿÿÿÿ8œù„¥Õ0
+D
+java:S1905"'Remove this unnecessary cast to "List".(´úíó8©ù„¥Õ0
+T
+java:S1905'"2Remove this unnecessary cast to "SecteurActivite".(²óå“ıÿÿÿÿ8±ù„¥Õ0
+T
+java:S1905,"2Remove this unnecessary cast to "SecteurActivite".(²óå“ıÿÿÿÿ8·ù„¥Õ0

@@ -39,6 +39,7 @@ public class Stock implements Serializable{
 	String libelleStock;
 
 	@OneToMany(mappedBy = "stock")
+	@JsonIgnore
 	public Set<Produit> produits;
 
 

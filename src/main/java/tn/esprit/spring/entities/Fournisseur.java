@@ -1,6 +1,7 @@
 package tn.esprit.spring.entities;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.*;
@@ -40,9 +41,11 @@ public class Fournisseur implements Serializable{
 	public DetailFournisseur detailFournisseur;
 	
 	@ManyToMany
-	public Set<SecteurActivite> secteurActivites;
+	@JsonIgnore
+	public Set<SecteurActivite> secteurActivites= new HashSet<>();
 	
 	@OneToMany(mappedBy = "fournisseur")
+	@JsonIgnore
 	public Set<Facture> factures; 
 	
 

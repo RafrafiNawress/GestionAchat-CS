@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -39,6 +40,7 @@ public class Reglement implements Serializable{
 	Date dateReglement;
 	
 	@ManyToOne(cascade = CascadeType.ALL)
+	@JsonIgnore
 	public Facture facture;
 	
 }

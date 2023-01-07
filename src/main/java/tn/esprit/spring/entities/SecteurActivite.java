@@ -1,13 +1,10 @@
 package tn.esprit.spring.entities;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Set;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -35,6 +32,6 @@ public class SecteurActivite implements Serializable{
 	
 	String libelleSecteurActivite;
 
-	@ManyToMany(mappedBy = "secteurActivites")
-	public Set<Fournisseur> fournisseurs;
+	@ManyToMany(mappedBy = "secteurActivites", cascade = CascadeType.ALL)
+	public Set<Fournisseur> fournisseurs ;
 }

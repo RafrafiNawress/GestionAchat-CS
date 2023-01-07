@@ -43,6 +43,7 @@ public class DetailFournisseur implements Serializable{
 	String test;
 	
 	@OneToOne(mappedBy = "detailFournisseur")
+	@JsonIgnore
 	public Fournisseur fournisseur;
 
 }
